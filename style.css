@@ -1,0 +1,82 @@
+
+.main-page{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 3fr 2fr 1fr;
+  background-color: black;
+  overflow: auto
+  
+}
+.second{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.about-me p ,h1{
+  color: white;
+  
+}
+.name{
+  font-size: 50px;
+  font-family: 'Archivo Black', sans-serif;
+  color: gold;
+  transition: 0.3s;
+}
+.name:hover{
+  font-size: 55px;
+  font-family: 'Archivo Black', sans-serif;
+  color: gold;
+  transition: 0.3s;
+  
+}
+.third{
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:url("https://wallpaperaccess.com/full/5237747.jpg");
+  
+}
+ 
+.hello{
+  font-size: 30px;
+  transition: 0.3s
+}
+.hello:hover{
+  font-size: 35px;
+  transition: 0.3s;
+}
+
+.main2{
+  background-color: black;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.half1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.skills p{
+  color: white;
+  
+}
+.model{
+  font-size: 20px;
+  color: gold;
+  transition: 0.3px;
+  font-family: 'Archivo Black', sans-serif;
+
+}
+.model:hover{
+  font-size: 25px;
+  color: gold;
+  transition: 0.3px;
+  font-family: 'Archivo Black', sans-serif;
+
+}
